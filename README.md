@@ -1,5 +1,12 @@
-# PicoLED library example application
+# Fairy LED strip
+
+Makes a bunch of fairies in the strip that bounce around. Based on double-pendulum approach to get a nicely chaotic system.
 
 ## Setup
-
-Copy or softlink the PicoLED library ( https://github.com/ForsakenNGS/PicoLED ) in the directory of the example and build it using cmake.
+```
+git submodule init
+mkdir build
+cd build
+cmake ../
+cmake --build ./ --config Debug --target upload
+```
